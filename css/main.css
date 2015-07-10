@@ -11,6 +11,11 @@ body {
 	color: #666666;
 }
 
+article {
+    border-bottom: 2px solid #8E6E3F;
+    padding: 0px 0px 30px;
+}
+
 h1, h2, h3, h4, h5, h6 { font-family: 'Sanchez', serif; }
 h1 { font-size: 2em; margin: 12px 0; }
 h2 { font-size: 1.5em; margin: 10px 0; color: #74592E; }
@@ -37,9 +42,10 @@ h3 { font-size: 1.25em; }
 
 #lwLogo {
     background: #ffffff url('https://github.com/PasqualeFS/wsp_project/blob/gh-pages/images/logo.jpg?raw=true') no-repeat left top;
-    width: 650px;
-    height: 251px;
+    width: 460px;
+    height: 170px;
     margin: 0 auto;
+    float: left;
 }
 
 #mainHeader {
@@ -71,6 +77,29 @@ h3 { font-size: 1.25em; }
 	margin: -70px 0 0 40px;
 	opacity: 0.5;
 	z-index: 9999;
+}
+
+/* NAVIGATION STYLES ======================================== */
+nav ul {
+    float: right;
+    margin: 70px;
+}
+nav li { 
+	display: inline;
+	margin-left: 12px; 
+}
+
+#navigation a {
+    display: inline;
+    margin-left: 12px;
+    font-weight: bold;
+    color: #666;
+    text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #8E6E3F;
+	text-decoration: underline;
 }
 /* ABOUT SPECIFIC ======================================== */
 

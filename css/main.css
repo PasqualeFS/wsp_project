@@ -26,7 +26,7 @@ h3 { font-size: 1.25em; margin: 10px 0; color: #74592E; }
 
 img { max-width: 100%; }
 
-p { margin-bottom: 14px; line-height: 18px; }
+p { margin-bottom: 14px; line-height: 18px; letter-spacing: 1px; }
 
 #wrapper {
 	width: 100%;
@@ -61,6 +61,7 @@ p { margin-bottom: 14px; line-height: 18px; }
 
 .standardButton:hover {
 	background: #8E6E3F;
+	color: #ffffff;
 }
 
 .subText {
@@ -140,6 +141,15 @@ nav li {
 	border-radius: 50px;
 	box-shadow: 2px 2px 2px #000000;
 	z-index: 1;
+}
+
+.headshot {
+    float: right;
+    border-radius: 200px;
+    border: 2px solid #666666;
+    padding: 10px;
+    position: relative;
+    top: -30px;
 }
 
 .ltbrownCircle {

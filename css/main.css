@@ -40,6 +40,7 @@ p { margin-bottom: 14px; line-height: 18px; letter-spacing: 1px; }
 	margin: 0 auto;
 }
 
+.bold { font-weight: bold; }
 .clear { clear: both; }
 .left { float: left; }
 .right { float: right; }

@@ -136,7 +136,7 @@ nav li {
 /* Portrait and Landscape */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   	#lwLogo {
-    width: 200;
-    height: 170px;
+        background: #ffffff url('https://github.com/PasqualeFS/wsp_project/blob/gh-pages/images/logo_small.png?raw=true') no-repeat left top;
+        max-width: 100%;
 	}
 }

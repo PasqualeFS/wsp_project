@@ -41,6 +41,8 @@ p { margin-bottom: 14px; line-height: 18px; letter-spacing: 1px; }
 }
 
 .clear { clear: both; }
+.left { float: left; }
+.right { float: right; }
 
 .standardButton {
 	background: #74592E;
@@ -121,6 +123,7 @@ nav li {
 	padding: 20px;
 	box-shadow: 2px 2px 2px #666666;
 	border: none;
+    margin-bottom: 40px;	
 }
 
 #circles {
@@ -165,6 +168,7 @@ nav li {
 }
 
 /* COMPONENTS SPECIFIC ======================================== */
+.leftImg { float: left; margin-right: 20px; }
 .rightImg { float: right; }
 
 /* MEDIA QUERIES ======================================== */

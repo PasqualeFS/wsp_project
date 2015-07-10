@@ -165,7 +165,7 @@ nav li {
 }
 
 /* COMPONENTS SPECIFIC ======================================== */
-
+.rightImg { float: right; }
 
 /* MEDIA QUERIES ======================================== */
 

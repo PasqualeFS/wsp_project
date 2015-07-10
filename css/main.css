@@ -8,12 +8,12 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-size: 1em;
 	background: #39424D;
-	color: #000001;
+	color: #666666;
 }
 
 h1, h2, h3, h4, h5, h6 { font-family: 'Sanchez', serif; }
 h1 { font-size: 2em; margin: 12px 0; }
-h2 { font-size: 1.5em; }
+h2 { font-size: 1.5em; margin: 10px 0; color: #74592E; }
 h3 { font-size: 1.25em; }
 
 #wrapper {

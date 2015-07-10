@@ -36,7 +36,7 @@ h3 { font-size: 1.25em; }
 }
 
 #lwLogo {
-    background: #ffffff url(images/logo.jpg) no-repeat left top;
+    background: #ffffff url('https://github.com/PasqualeFS/wsp_project/blob/gh-pages/images/logo.jpg?raw=true') no-repeat left top;
     width: 650px;
     height: 251px;
     margin: 0 auto;

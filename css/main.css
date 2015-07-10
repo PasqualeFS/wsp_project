@@ -21,6 +21,8 @@ h1 { font-size: 2em; margin: 12px 0; }
 h2 { font-size: 1.5em; margin: 10px 0; color: #74592E; }
 h3 { font-size: 1.25em; margin: 10px 0; color: #74592E; }
 
+img { max-width: 100%; }
+
 #wrapper {
 	width: 100%;
 }
@@ -116,5 +118,25 @@ nav li {
 	text-decoration: underline;
 }
 /* ABOUT SPECIFIC ======================================== */
+.bioLeft,
+.bioRight {
+	width: 45%;
+	background: #000000;
+	border-radius: 10px;
+	height: 40px;
+}
 
+.bioLeft { float: left; }
+.bioRight { float: right; }
 /* COMPONENTS SPECIFIC ======================================== */
+
+
+/* MEDIA QUERIES ======================================== */
+
+/* Portrait and Landscape */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  	#lwLogo {
+    width: 200;
+    height: 170px;
+	}
+}

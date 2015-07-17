@@ -17,12 +17,12 @@
 		***************************
 		BEGIN TEASER COMPONENT HTML
 		***************************
-			I've created one section element.  Each teaser is in a separate article within the section.
+			I've created one section element.  Each teaser is in a separate article within the section. The majority of these items can be styled via a parent/child selector since they are uniform across all three teasers.  The exception is the image.  Each is different.  I applied a class to each a tag where I intend to use a background-image via CSS to establish the hover effect.
 		 -->
-		<section>
+		<section id="teasers">
 			<!-- Dropmark Teaser -->
 			<article>
-				<a href="#">Dropmark</a>
+				<a href="#" class="teardrop"></a>
 				<h2>Dropmark</h2>
 				<p>Dead simple collaboration in the cloud.</p>
 				<p><a href="#">Visit</a></p>
@@ -30,7 +30,7 @@
 
 			<!-- Symbolset Teaser -->
 			<article>
-				<a href="#">Symbolset</a>
+				<a href="#" class="heart"></a>
 				<h2>Symbolset</h2>
 				<p>Symbolsets are semantic symbol fonts.</p>
 				<p><a href="#">Visit</a></p>
@@ -38,7 +38,7 @@
 
 			<!-- Siteleaf Teaser -->
 			<article>
-				<a href="#">Siteleaf</a>
+				<a href="#" class="leaf"></a>
 				<h2>Siteleaf</h2>
 				<p>A lightweight way to create and manage websites.</p>
 				<p><a href="#">Visit</a></p>

@@ -16,12 +16,12 @@
 		*******************************
 		BEGIN LOGIN/REGISTRATION FORM
 		*******************************
-			
+			I laid out the HTML markup by thinking ahead toward the CSS that will be later applied. Still, I tried to keep the markup as semantic as possible.  There were spots in the CREATE ACCOUNT area where I felt I couldn't avoid using a <span> tag.  One ID on the section and IDs on each of the articles seemed to make sense for styling later.
 		 -->
-		<section>
+		<section id="loginReg">
 			<!-- BEGIN SIGN IN -->
-			<article><!-- for Sign In -->
-				<h2>Sign In</h2><!-- Header -->
+			<article id="signin"><!-- for Sign In -->
+				<h2 class="blue">Sign In</h2><!-- Header -->
 				<p>Already have an account?</p><!-- Bold Copy -->
 				<p>Sign in to your account using</p><!-- Standard Copy -->
 				<ul><!-- For Social Icons -->
@@ -35,7 +35,7 @@
 				<form>
 					<label><input placeholder="Email address" /></label><br/><!-- for email -->
 					<label><input placeholder="Password" /></label><br/><!-- for password -->
-					<a href="#">Forgot password?</a><!-- for 'forgot password?' -->
+					<a href="#" class="blue">Forgot password?</a><!-- for 'forgot password?' -->
 					<a href="#">Sign In</a><!-- for sign in button -->
 				</form>
 			</article>
@@ -43,8 +43,8 @@
 
 
 			<!-- BEGIN CREATE ACCOUNT -->
-			<article>
-				<h2>Create Account</h2><!-- Header -->
+			<article id="register">
+				<h2 class="green">Create Account</h2><!-- Header -->
 				<p>Create your account using</p><!-- Standard Copy -->
 				<ul><!-- For Social Icons -->
 					<li><a href="#">Facebook</a></li>	
@@ -58,8 +58,8 @@
 					<label><input placeholder="Email address" /></label><br/><!-- for email -->
 					<label><input placeholder="Password" /></label><br/><!-- for password -->
 					<label><input placeholder="Confirm Password" /></label><br/><!-- for confirm password -->
-					<label><input type="checkbox" /> I am a <span>publisher</span></label><br/><!-- for publisher checkbox -->
-					<label><input type="checkbox" /> I agree electronically to the <span>publisher terms of use</span>, <span>privacy policy</span> and confirm being at least 13 years old.</label><br/><!-- for agree checkbox -->
+					<label><input type="checkbox" /> I am a <span class="green">publisher</span></label><br/><!-- for publisher checkbox -->
+					<label><input type="checkbox" /> I agree electronically to the <span class="green">publisher terms of use</span>, <span class="green">privacy policy</span> and confirm being at least 13 years old.</label><br/><!-- for agree checkbox -->
 					<p><a href="#">Create Account</a></p><!-- for create account button -->
 				</form>
 			</article>

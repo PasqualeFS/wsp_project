@@ -18,31 +18,36 @@
 		BEGIN HEADER COMPONENT HTML 
 		***************************
 			Keeping the HTML as simple and semantic as possible, I intend to use the logo as a background image on the h1 tag and text-indent
-			the copy off the page.  There are two unordered lists.  One for the navigation links and one for the social/search icons.
+			the copy off the page.  There are two unordered lists.  One for the navigation links and one for the social/search icons.  CSS can be easily applied directly to the header>h1 and nav>ul>li>a without use of classes or IDs.  Two sections "social" and "search" have IDs applied but all child elements within can easily be styled without classes.
 		-->
 		<header>
-		<h1>codrops</h1>
-		<!-- This UL is for the main navigation -->
-		<ul>
-			<li><a href="#">Tutorials</a></li>
-			<li><a href="#">Playground</a></li>
-			<li><a href="#">Blueprints</a></li>
-			<li><a href="#">Collective</a></li>
-			<li><a href="#">CSS Reference</a></li>
-		</ul>
+			<h1>codrops</h1>
+			<!-- This UL is for the main navigation -->
+			<nav>
+				<ul>
+					<li><a href="#">Tutorials</a></li>
+					<li><a href="#">Playground</a></li>
+					<li><a href="#">Blueprints</a></li>
+					<li><a href="#">Collective</a></li>
+					<li><a href="#">CSS Reference</a></li>
+				</ul>
+			</nav>
+			<!-- This UL will eventually hold the social icons once CSS is applied -->
+			<section id="social">
+				<ul>
+					<li><a href="#">RSS Feed</a></li>
+					<li><a href="#">Email</a></li>
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Google Plus</a></li>
+					<li><a href="#">Github</a></li>
+				</ul>
+			</section>
 
-		<!-- This UL will eventually hold the social icons once CSS is applied -->
-		<ul>
-			<li><a href="#">RSS Feed</a></li>
-			<li><a href="#">Email</a></li>
-			<li><a href="#">Twitter</a></li>
-			<li><a href="#">Facebook</a></li>
-			<li><a href="#">Google Plus</a></li>
-			<li><a href="#">Github</a></li>
-		</ul>
-
-		<!-- This will be the standalone search icon -->
-		<a href="#">Search</a>
+			<!-- This will be the standalone search icon -->
+			<section id="search">
+				<a href="#">Search</a>
+			</section>
 		</header>
 		<!-- END HEADER COMPONENT HTML -->
 </body>

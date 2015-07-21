@@ -1,0 +1,27 @@
+/* 
+================================================================================
+TEASER COMPONENT STYLESHEET
+================================================================================ */
+
+/* TEASERS ======================================== */
+
+/* ----- Images ----- */
+.teardrop, 
+.heart, 
+.leaf {
+	background: url('images/teasersprite.png');
+	background-repeat: no-repeat;
+}
+
+.teardrop {
+	width: 137px;
+	height: 186px;
+	background-position: 0px 0px;
+}
+
+.teardrop:hover {
+	background-position: 0px 186px;
+}
+
+
+/* TEASERS ======================================== */

@@ -1,0 +1,118 @@
+/* 
+================================================================================
+NEWS TEASER COMPONENT STYLESHEET
+================================================================================ */
+
+
+/* ----- GLOBAL ----- */
+body {
+	font-family: 'Times New Roman', Georgia, serif;
+	color: #858585;
+}
+
+article { 
+	clear: both;
+	height: 84px;
+	border-bottom: 1px solid #E9DEDE;
+	margin-top: 14px;
+}
+
+article a {
+	color: #858585;
+}
+
+article:last-child {
+	border-bottom: none;
+}
+
+article img { 
+	float: left; 
+	margin-right: 15px; 
+}
+
+article p:last-child {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+article section { 
+	float: left;
+	width: 180px;
+}
+
+aside {
+	float: right;
+	width: 290px;
+	border-top: 8px solid #000000;
+	margin: 20px;
+	
+}
+
+h2, article {
+	padding-left: 15px;
+}
+
+h2 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin: 16px 0;
+	color: #000000;
+}
+
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin: 0 0 8px 0;
+	text-transform: uppercase;
+}
+
+li::before {
+	background: url('images/moreNews.png') no-repeat;
+	background-position: 0px 0px;
+	width: 29px;
+	height: 30px;
+}
+
+p {
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.newsSection {
+	margin-top: 10px;
+}
+
+/* ----- CLASSES ----- */
+.hzRule {
+	border-bottom: 1px solid #E9DEDE;
+}
+
+.moreNews {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #7f7f7f;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-left: 15px;
+}
+
+.moreNews:hover {
+	color: #000000;
+}
+
+.moreNews::before {
+    content: " ";
+	background: url('images/moreNews.png') no-repeat;
+	width: 29px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.moreNews:hover::before {
+	background: url('images/moreNewsHover.png') no-repeat;
+}
+
+.newsSection {
+	margin-top: 10px;
+}

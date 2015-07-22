@@ -12,12 +12,17 @@ header {
 	padding: 30px 0px;
 }
 
+#wrapper {
+	max-width: 1360px;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+
 /* ----- LOGO ----- */
 header h1 {
 	float: left;
 	width: 184px;
 	height: 62px;
-	margin-left: 10%;
 	background: url('images/codropsLogo.png') no-repeat;
 	text-indent: -9999px;
 }
@@ -32,7 +37,7 @@ nav li {
 	display: inline;
 }
 
-nav li:after {
+nav li::after {
     content: "•";
     color: #237DAC;
     font-size: 14px;
@@ -62,7 +67,7 @@ nav li a:hover {
 #social { 
 	position: relative;
 	float: left;
-	margin: 20px 0 0 278px;
+	margin: 20px 0 0 180px;
 	padding: 0px;
 	width: 252px;
 	height: 34px;

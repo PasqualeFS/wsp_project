@@ -10,7 +10,7 @@ body {
 }
 
 #imgGallery {
-	width: 720px;
+	width: 740px;
 	margin: 0 auto;
 }
 
@@ -28,3 +28,25 @@ a:hover {
 	color: #FF4B33;
 }
 
+li {
+	display: inline-block;
+	margin-top: 8px;
+}
+
+img {
+	padding: 4px;
+	width: 162px;
+	height: 162px;
+	border: 1px solid #a9a9a9; 
+	margin: 10px 10px 0 0;
+}
+
+img:hover {
+	
+	border: 4px solid #a9a9a9;
+	padding: 0;
+}
+
+ul {
+	margin-top: 8px;
+}

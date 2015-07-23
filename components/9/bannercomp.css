@@ -1,0 +1,40 @@
+/* 
+================================================================================
+BANNER COMPONENT STYLESHEET
+================================================================================ */
+#banner {
+	width: 100%;
+	margin: 0 auto;
+}
+
+img { width: 100%; }
+#banner h2, 
+#banner h3, 
+#banner p {
+	text-indent: -9999px;
+	margin: 0;
+}
+
+#sliderBtns {
+	width: 118px;
+	position: relative;
+	left: 65%;
+	top: -26px;
+}
+
+.nextBtn, 
+.prevBtn {
+	background: url('images/buttonsprite.png') no-repeat;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	border: none;
+}
+
+.nextBtn {
+	background-position: 0px 0px;
+}
+.prevBtn {
+	background-position: -45px 0px;
+	margin-left: 24px;
+}

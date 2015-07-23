@@ -5,7 +5,7 @@ CTA COMPONENT STYLESHEET
 
 body {
 	background: #2F3F43;
-	color: #333333;
+	color: #585858;
 }
 
 #fitCTAs {
@@ -29,8 +29,19 @@ p {
 	margin-top: 25px;
 }
 
+.green {
+	color: #A5DA51;
+	font-weight: bold;
+}
+
 .larger {
 	font-size: 50px;
+	font-weight: lighter;
+	font-family: Helvetica, sans-serif;
+}
+
+.smaller {
+	margin-top: 15px;
 }
 
 img {

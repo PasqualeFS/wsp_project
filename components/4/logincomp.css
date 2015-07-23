@@ -1,0 +1,175 @@
+/* 
+================================================================================
+LOGIN/REGISTRATION COMPONENT STYLESHEET
+================================================================================ */
+
+/*
+
+Colors
+
+
+p color: #434747;
+Teal: #12C5D2;
+Green: #01BF01;
+Dk Blue: 1F2B33;
+
+*/
+body { 
+	font-size: 16px; 
+	color: #000000;
+}
+
+
+/* ----- GLOBAL STYLES ----- */
+article {
+	background: #ffffff;
+	width: 470px;
+	height: 525px;
+	margin-right: 40px;
+	float: left;
+}
+
+article:last-child {
+	margin-right: 0;
+}
+
+h2, p, ul {
+	text-align: center;
+}
+
+h2 {
+	font-size: 2em;
+	margin-top: 28px;
+}
+
+li { display: inline; margin: 0 17px 0 0; }
+li:last-child { margin-right: 0; }
+
+p { margin-top: 10px; }
+
+section {
+	width: 1070px;
+	margin: 0 auto;
+}
+
+
+.blue,
+.forgot:hover { color: #12C5D2; }
+.dkblue { color: #1F2B33; }
+.green { color: #01BF01; }
+.strong { font-weight: bold; }
+
+
+.or {
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+/* ----- SOCIAL ICON STYLES ----- */
+
+.social {
+	background: url('images/socialSprite.png') no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	
+}
+
+.facebook {
+	width: 28px;
+	height: 28px;
+	background-position: 0 0;
+}
+
+.linkedin {
+	width: 28px;
+	height: 28px;
+	background-position: -45px 0;
+}
+
+.twitter {
+	width: 28px;
+	height: 28px;
+	background-position: -90px 0;
+}
+
+.google {
+	width: 28px;
+	height: 28px;
+	background-position: -135px 0;
+}
+
+.yahoo {
+	width: 28px;
+	height: 28px;
+	background-position: -180px 0;
+}
+
+
+/* ----- FORM STYLES ----- */
+form {
+	margin: 0 auto;
+	width: 200px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+	border: 1px solid #666;
+	border-radius: 4px;
+	padding: 5px;
+	font-size: 14px;
+	width: 208px;
+	height: 32px;
+	margin-bottom: 10px;
+}
+
+input[type=checkbox] {
+}
+
+label {
+	
+}
+
+.check-text {
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+    padding-left: 8px;
+}
+
+.smaller {
+	font-size: 12px;
+}
+
+.bluebutton {
+	display: block;
+	background: #12C5D2;
+	font-size: 20px;
+	color: #ffffff;
+	width: 160px;
+	margin: 10px 0;
+	padding: 8px 0 10px 0;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.bluebutton:hover {
+	background: #21D9E7;
+	color: #ffffff;
+}
+
+.greenbutton {
+	display: block;
+	background: #01BF01;
+	font-size: 20px;
+	color: #ffffff;
+	width: 160px;
+	margin: 10px 0;
+	padding: 8px 0 10px 0;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.greenbutton:hover {
+	background: #00DF00;
+	color: #ffffff;
+}

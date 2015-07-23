@@ -5,7 +5,8 @@
 <head>
 	<title>WSP: Pasquale Palazzolo | Log In/Registration Form</title>
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css" />
-	<!-- link rel="stylesheet" type="text/css" href="../../css/main.css" / -->
+	<link rel="stylesheet" type="text/css" href="../../css/main.css" />
+	<link rel="stylesheet" type="text/css" href="logincomp.css" />
 	<!-- Link to my chosen serif Google Font -->
 	<link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
 	<!-- Link to my chosen sans serif Google Font -->
@@ -21,22 +22,22 @@
 		<section id="loginReg">
 			<!-- BEGIN SIGN IN -->
 			<article id="signin"><!-- for Sign In -->
-				<h2 class="blue">Sign In</h2><!-- Header -->
-				<p>Already have an account?</p><!-- Bold Copy -->
+				<h2 class="blue strong">Sign In</h2><!-- Header -->
+				<p class="dkblue strong subhead">Already have an account?</p><!-- Bold Copy -->
 				<p>Sign in to your account using</p><!-- Standard Copy -->
 				<ul><!-- For Social Icons -->
-					<li><a href="#">Facebook</a></li>	
-					<li><a href="#">LinkedIn</a></li>
-					<li><a href="#">Twitter</a></li>
-					<li><a href="#">Google Plus</a></li>
-					<li><a href="#">Yahoo</a></li>
+					<li><a href="javascript:void(0);" class="social facebook">Facebook</a></li>	
+					<li><a href="javascript:void(0);" class="social linkedin">LinkedIn</a></li>
+					<li><a href="javascript:void(0);" class="social twitter">Twitter</a></li>
+					<li><a href="javascript:void(0);" class="social google">Google Plus</a></li>
+					<li><a href="javascript:void(0);" class="social yahoo">Yahoo</a></li>
 				</ul>
-				<p>or</p><!-- for OR -->
+				<p class="or strong">or</p><!-- for OR -->
 				<form>
-					<label><input placeholder="Email address" /></label><br/><!-- for email -->
-					<label><input placeholder="Password" /></label><br/><!-- for password -->
-					<a href="#" class="blue">Forgot password?</a><!-- for 'forgot password?' -->
-					<a href="#" class="bluebutton">Sign In</a><!-- for sign in button -->
+					<label><input placeholder="Email address" type="email" /></label><br/><!-- for email -->
+					<label><input placeholder="Password" type="password" /></label><br/><!-- for password -->
+					<a href="javascript:void(0);" class="blue smaller forgot">Forgot password?</a><!-- for 'forgot password?' -->
+					<a href="javascript:void(0);" class="bluebutton">Sign In</a><!-- for sign in button -->
 				</form>
 			</article>
 			<!-- END SIGN IN -->
@@ -44,23 +45,23 @@
 
 			<!-- BEGIN CREATE ACCOUNT -->
 			<article id="register">
-				<h2 class="green">Create Account</h2><!-- Header -->
+				<h2 class="green strong">Create Account</h2><!-- Header -->
 				<p>Create your account using</p><!-- Standard Copy -->
 				<ul><!-- For Social Icons -->
-					<li><a href="#">Facebook</a></li>	
-					<li><a href="#">LinkedIn</a></li>
-					<li><a href="#">Twitter</a></li>
-					<li><a href="#">Google Plus</a></li>
-					<li><a href="#">Yahoo</a></li>
+					<li><a href="javascript:void(0);" class="social facebook">Facebook</a></li>	
+					<li><a href="javascript:void(0);" class="social linkedin">LinkedIn</a></li>
+					<li><a href="javascript:void(0);" class="social twitter">Twitter</a></li>
+					<li><a href="javascript:void(0);" class="social google">Google Plus</a></li>
+					<li><a href="javascript:void(0);" class="social yahoo">Yahoo</a></li>
 				</ul>
-				<p>or</p><!-- for OR -->
+				<p class="or strong">or</p><!-- for OR -->
 				<form>
-					<label><input placeholder="Email address" /></label><br/><!-- for email -->
-					<label><input placeholder="Password" /></label><br/><!-- for password -->
-					<label><input placeholder="Confirm Password" /></label><br/><!-- for confirm password -->
-					<label><input type="checkbox" /> I am a <span class="green">publisher</span></label><br/><!-- for publisher checkbox -->
-					<label><input type="checkbox" /> I agree electronically to the <span class="green">publisher terms of use</span>, <span class="green">privacy policy</span> and confirm being at least 13 years old.</label><br/><!-- for agree checkbox -->
-					<a href="#" class="greenbutton">Create Account</a><!-- for create account button -->
+					<label><input placeholder="Email address" type="email" /></label><br/><!-- for email -->
+					<label><input placeholder="Password" type="password" /></label><br/><!-- for password -->
+					<label><input placeholder="Confirm Password" type="password" /></label><br/><!-- for confirm password -->
+					<label><input type="checkbox" /> <span class="check-text">I am a <span class="green">publisher</span></span></label><br/><!-- for publisher checkbox -->
+					<label><input type="checkbox" /> <span class="check-text">I agree electronically to the <span class="green">publisher terms of use</span>, <span class="green">privacy policy</span> and confirm being at least 13 years old.</span></label><br/><!-- for agree checkbox -->
+					<a href="javascript:void(0);" class="greenbutton">Create Account</a><!-- for create account button -->
 				</form>
 			</article>
 			<!-- END CREATE ACCOUNT -->

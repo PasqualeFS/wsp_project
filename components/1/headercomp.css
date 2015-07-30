@@ -67,10 +67,75 @@ nav li a:hover {
 #social { 
 	position: relative;
 	float: left;
-	margin: 20px 0 0 180px;
+	margin: 20px 0 0 150px;
 	padding: 0px;
-	width: 252px;
+	width: 282px;
 	height: 34px;
+}
+
+#social ul li a {
+	display: inline-block;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+.rss-icon, 
+.email-icon, 
+.twitter-icon, 
+.facebook-icon, 
+.google-icon, 
+.github-icon {
+	background: url('images/social-sprite.png') no-repeat;
+	width: 22px;
+	height: 22px;
+}
+
+.rss-icon {
+	background-position: 0px 0px;
+}
+
+.rss-icon:hover {
+	background-position: 0px -22px;
+}
+
+.email-icon {
+	background-position: -44px 0px;
+}
+
+.email-icon:hover {
+	background-position: -44px -22px;
+}
+
+.twitter-icon {
+	background-position: -66px 0px;
+}
+
+.twitter-icon:hover {
+	background-position: -66px -22px;
+}
+
+.facebook-icon {
+	background-position: -22px 0px;
+}
+
+.facebook-icon:hover {
+	background-position: -22px -22px;
+}
+
+.google-icon {
+	background-position: -88px 0px;
+}
+
+.google-icon:hover {
+	background-position: -88px -22px;
+}
+
+.github-icon {
+	background-position: -110px 0px;
+}
+
+.github-icon:hover {
+	background-position: -110px -22px;
 }
 
 /* -- Social Icon Webfont found at www.socicon.com -- */
@@ -90,23 +155,6 @@ nav li a:hover {
 	display: inline;
 	padding: 0 10px; 
 }
-
-.socicon {
-    font-family: 'socicon' !important;
-    color: #ffffff;
-}
-
-.socicon:hover {
-	color: #056495;
-}
-
-.socicon-rss:before { content: ","; }
-.socicon-mail:before { content: "@"; }
-.socicon-twitter:before { content: "a"; }
-.socicon-facebook:before { content: "b"; }
-.socicon-google:before { content: "c"; }
-.socicon-github:before { content: "Q"; }
-
 
 /* ----- SEARCH ----- */
 #search {

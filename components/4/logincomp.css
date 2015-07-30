@@ -55,21 +55,53 @@ section {
 }
 
 
-.blue,
-.forgot:hover { color: #12C5D2; }
-.dkblue { color: #1F2B33; }
+
+/* I still had to keep .green for the spans in the second form
+where only certain words are meant to be green */
 .green { color: #01BF01; }
-.strong { font-weight: bold; }
 
+/* ----- SIGN IN FONT STYLES ----- */
+#signin h2 {
+	color: #12C5D2;
+}
 
-.or {
+#register h2 {
+	color: #01Bf01;
+}
+
+/* This targets both headers and makes them bold */
+#signin h2, #register h2 {
+	font-weight: bold;
+}
+
+/* This targets "Already have an account?" */
+#signin p:nth-child(2) {
+	color: #1F2B33;
+	font-weight: bold;
+}
+
+/* This targets the "forgot password?" copy */
+#signin form a:first-of-type {
+	color: #12C5D2;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+/* This targets the P tags with "OR" for the copy */
+article p:nth-child(5), 
+article p:nth-child(4) {
 	text-transform: uppercase;
 	font-size: 20px;
+	font-weight: bold;
 }
 
 /* ----- SOCIAL ICON STYLES ----- */
 
-.social {
+.facebook, 
+.linkedin, 
+.twitter, 
+.google, 
+.yahoo {
 	background: url('images/socialSprite.png') no-repeat;
 	display: inline-block;
 	text-indent: -9999px;
@@ -139,7 +171,7 @@ label {
 }
 
 .smaller {
-	font-size: 12px;
+	
 }
 
 .bluebutton {

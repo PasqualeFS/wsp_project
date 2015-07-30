@@ -1,0 +1,152 @@
+/* 
+================================================================================
+HEADER STYLESHEET
+================================================================================ */
+
+/* HEADER ======================================== */
+header {
+	background: #0099CC;
+	width: 100%;
+	height: 122px;
+	position: relative;
+	padding: 30px 0px;
+}
+
+#wrapper {
+	max-width: 1360px;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+
+/* ----- LOGO ----- */
+header h1 {
+	float: left;
+	width: 184px;
+	height: 62px;
+	background: url('images/codropsLogo.png') no-repeat;
+	text-indent: -9999px;
+}
+
+/* ----- MAIN NAVIGATION ----- */
+nav {
+	float: left;
+	margin: 22px 0px 0px 47px;
+	min-width: 470px;
+}
+nav li {
+	display: inline;
+}
+
+nav li::after {
+    content: "•";
+    color: #237DAC;
+    font-size: 14px;
+}
+
+nav li:last-child::after {
+    content: "";
+}
+
+nav li a {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+    font-weight: normal;
+    margin: 0px 14px 0px 10px;
+    color: #FFF;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+
+}
+
+nav li a:hover {
+	color: #056495;
+	text-shadow: none;
+}
+
+/* SOCIAL ======================================== */
+
+#social { 
+	position: relative;
+	float: left;
+	margin: 20px 0 0 180px;
+	padding: 0px;
+	width: 252px;
+	height: 34px;
+}
+
+#social ul li a {
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+.rss-icon, 
+.email-icon, 
+.twitter-icon, 
+.facebook-icon, 
+.google-icon, 
+.github-icon {
+	background: url('images/social-sprite.png') no-repeat;
+	width: 22px;
+	height: 22px;
+}
+
+.rss-icon {
+	background-position: 0px 0px;
+}
+
+/* -- Social Icon Webfont found at www.socicon.com -- */
+@font-face {
+    font-family: 'socicon';
+    src: url('socicon/font/socicon.eot');
+    src: url('socicon/font/socicon.eot?#iefix') format('embedded-opentype'),
+         url('socicon/font/socicon.woff') format('woff'),
+         url('socicon/font/socicon.ttf') format('truetype'),
+         url('socicon/font/socicon.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    text-transform: initial;
+}
+
+#social li {
+	display: inline;
+	padding: 0 10px; 
+}
+
+.socicon {
+    font-family: 'socicon' !important;
+    color: #ffffff;
+}
+
+.socicon:hover {
+	color: #056495;
+}
+
+.socicon-rss:before { content: ","; }
+.socicon-mail:before { content: "@"; }
+.socicon-twitter:before { content: "a"; }
+.socicon-facebook:before { content: "b"; }
+.socicon-google:before { content: "c"; }
+.socicon-github:before { content: "Q"; }
+
+
+/* ----- SEARCH ----- */
+#search {
+	position: relative;
+	float: left;
+	margin: 16px 0px 0px 40px;
+	padding: 0px;
+}
+
+.magnify {
+	background: url('images/magnify.png') no-repeat;
+	width: 17px;
+	height: 17px;
+	border: none;
+}
+
+.magnify:hover {
+	background: url('images/magnify-white.png') no-repeat;
+}
+
+
+/* HEADER ======================================== */
